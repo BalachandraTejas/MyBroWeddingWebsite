@@ -1,0 +1,420 @@
+body{
+	overflow:hidden;
+	background-color: #E4F0F1;/*//FFD3B6//A68D7C//F0CCB3
+	//7F9596//8BA3A4//97B0B2//ADCACC*/
+}
+
+.background{
+background-image: url(img/Blue-Modern-City-Vector-Illustration.png);
+background-repeat:repeat-x;
+z-index: -9;
+/*background-image: url(img/dark_geometric2.png);*/
+}
+
+.noanchor:link, .noanchor:visited, .noanchor:active {
+	text-decoration: none;
+	color:white;
+}
+
+.page{
+	width:100%;
+	height:100%;
+	z-index: -10;
+}
+
+#logo{
+	left:10px;
+	top:0px;
+}
+
+#content{
+	height:100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-image: url(img/brushed_alu.png);
+	
+}
+
+.jscode{
+	background-color:white;
+	font-family:"Courier New",Courier,monospace;
+	width:600px;
+	margin-left:40px;
+	padding:10 15 10 15;
+	-moz-box-shadow: 5px 5px 5px #888;-webkit-box-shadow: 5px 5px 5px #888;box-shadow: 5px 5px 5px #888;
+}
+
+p{
+	margin-left:10px;
+	font-family:Calibri;
+	font-size:15px;
+	margin-bottom:15px;
+}
+
+#titlebox{
+	position:absolute;
+	left:40%;
+	top:100px;
+	width:650px;
+	height:500px;
+
+}
+
+#codebox{
+	margin-top:20px;
+	background-color:white;
+	font-family:"Courier New",Courier,monospace;
+	width:500px;
+	height:100px;
+	margin-left:40px;
+	padding:10 15 10 15;
+	-moz-box-shadow: 5px 5px 5px #888;-webkit-box-shadow: 5px 5px 5px #888;box-shadow: 5px 5px 5px #888;
+}
+
+.arrow{
+	opacity:0.8;/**/
+}
+
+.dirText{
+	color:#000000;//#888888;
+	font-size:18px;
+	margin-top:45px;
+	opacity:0.0;
+}
+
+.control{
+	position:fixed;
+	width:170px;
+	cursor:pointer;
+}
+
+#rightControl{
+	right:0px;
+	top:40%;
+}
+
+#leftControl{
+	left:0px;
+	top:40%;
+}
+.poemline { width: 80%; 
+    margin: 0 2% 1% 0;
+    display: block;
+}
+.poemStanza{
+    left:40%;
+}
+.night{
+    background-image: url(img/night.png);
+    background-repeat:repeat-x;
+    background-position: bottom center;
+    width:100%;
+    height:650px;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-11;
+}
+.stars{
+    background: url(img/stars3.gif) repeat scroll 0 0 transparent;
+    height: 450px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index:-9;
+}
+.rightbottompoem{
+    position:absolute;
+    top: 80%;
+    left: 30%;
+    margin-top:50px;
+    z-index: 3;
+}
+.leftbottom{
+    position:absolute;
+    top: 55%;
+    left: 18%;
+}
+.leftToppoem{
+    position:absolute;
+    top: 5%;
+    left: 5%;
+    z-index: 2;
+}
+.rightText{
+    position:absolute;
+    top: 45%;
+    left: 60%;
+}
+
+.centerbottom{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -2%; 
+    margin-left: -35%; 
+}
+.hangFromTop{
+    position:relative;
+    top: 5%;
+    left: 20%;
+}
+
+.socialIconEffects{
+    opacity:0.6;
+}
+.socialIconEffects:hover, .socialIconEffects:focus{
+    opacity:1;
+}
+ .eventsBlock{
+    position:absolute;
+    height:auto;
+    width: 90%;
+    left:3%;
+    top:23%;
+ }
+.oval {
+   background-color: #ADCACC; 
+   -moz-border-radius: 10px / 10px; 
+   -webkit-border-radius: 10px / 10px; 
+   border-radius: 10px / 10px;
+   width:auto;
+   padding: 10px;
+   margin: 10px;
+} 
+/*  
+#facebook{
+     background-image:url(img/Facebook-32.png);
+     background-repeat: no-repeat;
+ }
+ #twitter{
+     background-image:url(img/Twitter-32.png);
+     background-repeat: no-repeat;
+ }
+ #gplus{
+     background-image:url(img/GooglePlus-32.png);
+     background-repeat: no-repeat;
+ }
+ */
+/* //FFD3B6//A68D7C//F0CCB3
+    //7F9596//8BA3A4//97B0B2//ADCACC*/
+   
+/* ==|== media queries ======================================================
+   PLACEHOLDER Media Queries for Responsive Design.
+   These override the primary ('mobile view') styles
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) and (max-width:767px) {
+    
+  /* Style adjustments for viewports 480px and (max-width: 768px) go here */
+ 
+
+    .f0 {font-size:12px;}
+    .f05 {font-size:16px;}
+    .f1 {font-size:20px;}
+    .f15 {font-size:24px;}
+    .f2 {font-size:30px;}
+    .f3 {font-size:65px;}
+    .eventsBlock{
+    position:absolute;
+    height:auto;
+    width: 90%;
+    left:10%;
+    top:23%;
+ }
+    .oval{
+        width:36%;
+        height:180px;
+    }
+    #oval1,#oval2{
+        float: left;
+    }
+    #oval3,#oval4{
+        float: left;
+    }
+    /*
+ #facebook{
+     background-image:url(img/Facebook-64.png);
+ }
+ #twitter{
+     background-image:url(img/Twitter-64.png);
+ }
+ #gplus{
+     background-image:url(img/GooglePlus-64.png);
+ }
+ .socialIconEffects{
+    height: 64px;
+    width: 64px;
+}*/
+}/* ends normal PC screen version*/
+
+@media only screen and (min-width: 768px) {
+  /* Style adjustments for viewports 768px and over go here*/
+.f0 {font-size:15px;}
+.f05 {font-size:20px;}
+.f1 {font-size:25px;}
+.f15 {font-size:30px;}
+.f2 {font-size:50px;}
+.f3 {font-size:100px;}
+ .eventsBlock{
+    position:absolute;
+    height:auto;
+    width: 90%;
+    left:10%;
+    top:23%;
+ }
+    .oval{
+        width:40%;
+        height:180px;
+    }
+    #oval1,#oval2{
+        float: left;
+    }
+    #oval3,#oval4{
+        float: left;
+    }
+    /*
+ #facebook{
+     background-image:url(img/Facebook-64.png);
+ }
+ #twitter{
+     background-image:url(img/Twitter-64.png);
+ }
+ #gplus{
+     background-image:url(img/GooglePlus-64.png);
+ }
+ .socialIconEffects{
+    height: 64px;
+    width: 64px;
+}*/
+}
+
+/*------------------------------------*\
+    $CAROUSEL
+\*------------------------------------*/
+
+
+
+/* end carousel*/
+
+
+.theCouple{
+    overflow:hidden;
+    position:relative;
+    height:100%;
+    width:20%;
+    left:40%;
+    top:35%;
+}
+.theCouple img{
+    display:block;
+    max-width:100%;
+    z-index: 1000;
+}
+
+#groom{
+    position:absolute;
+    width:40%;
+    left:5%;
+    top:25%;
+    z-index: 2;
+    font-family:"Lucida Handwriting";
+}/*display: none;*/
+#bride{
+    position:absolute;
+    width:40%;
+    left:50%;
+    top:25%;
+    margin-left: 5%;
+    z-index: 2;
+    font-family:"Lucida Handwriting";
+}
+
+/*///////////////////////////////////////////////////////////////////*/
+/*
+    Pretty Table Styling
+    CSS Tricks also has a nice writeup: http://css-tricks.com/feature-table-design/
+    */
+    
+    table {
+        overflow:hidden;
+        border:1px solid #d3d3d3;
+        background:#fefefe;
+        width:70%;
+        margin:5% auto 0;
+        -moz-border-radius:5px; /* FF1+ */
+        -webkit-border-radius:5px; /* Saf3-4 */
+        border-radius:5px;
+        -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+        -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+        opacity: 0.8
+    }
+    
+    th, td {padding:10px 18px 10px; text-align:center; }
+    
+    th {padding-top:18px; text-shadow: 1px 1px 1px #fff; background:#e8eaeb;}
+    
+    td {border-top:1px solid #e0e0e0; border-right:1px solid #e0e0e0;}
+    
+    tr.odd-row td {background:#f6f6f6;}
+    
+    td.first, th.first {text-align:left}
+    
+    td.last {border-right:none;}
+    
+  /*end of table dtyling */
+ 
+.ganesh{
+position:absolute;
+left:80%;
+top:7%;
+animation-name:rotate;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+-webkit-animation-name: rotate;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    /*-webkit-transform-origin:50% 0%;*//*top point becomes pivot*/
+    -webkit-animation-timing-function:ease-in-out;
+    
+    z-index: 10;
+}
+@keyframes rotate {
+    0%   { transform: rotate(10deg);}
+    100% { transform: rotate(-10deg);; }
+}
+@-webkit-keyframes rotate {
+    0%   { -webkit-transform: rotate(10deg); }
+    100% { -webkit-transform: rotate(-10deg); }
+}
+
+.img { -ms-interpolation-mode: bicubic; }
+#audio{
+    z-index: 99;
+}
+
+#facebookComments{
+    background-color: #575959;
+    opacity: 0.8;
+    height: 500px !important;
+    overflow-y: scroll !important;
+}
+.fb_ltr { width:400px !important; }
+/*
+ .fb-comments{
+    height: 400px !important; overflow-y: scroll !important;
+}*/
+#socialButtons{
+    margin-top: 20px;
+}
+#line{
+    position:absolute;
+    top: 40%;
+    left: 60%;
+   font-weight: bold;
+}

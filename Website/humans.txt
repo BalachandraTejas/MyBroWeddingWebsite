@@ -1,0 +1,46 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Name: Balachandra Tejaswi Bitra
+  Site: thawtflux.com
+  Twitter: https://twitter.com/teja2206
+  Website: www.thawtflux.com
+  Location: Bangalore, Karnataka, India
+
+/* THANKS */
+  Names (& URL): scott.tolksdorf@gmail.com (http://stolksdorf.github.com/Parallaxjs)
+  
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery,jslider plugin
+  Software:
+  
+This website is tested on IE 10, Firefox 23.0.1 and Chrome ver29.0.1547.66m and safari and Opera
+
+                                    
+                               -o/-                       
+                               +oo//-                     
+                              :ooo+//:                    
+                             -ooooo///-                   
+                             /oooooo//:                   
+                            :ooooooo+//-                  
+                           -+oooooooo///-                 
+           -://////////////+oooooooooo++////////////::    
+            :+ooooooooooooooooooooooooooooooooooooo+:::-  
+              -/+ooooooooooooooooooooooooooooooo+/::////:-
+                -:+oooooooooooooooooooooooooooo/::///////:-
+                  --/+ooooooooooooooooooooo+::://////:-   
+                     -:+ooooooooooooooooo+:://////:--     
+                       /ooooooooooooooooo+//////:-        
+                      -ooooooooooooooooooo////-           
+                      /ooooooooo+oooooooooo//:            
+                     :ooooooo+/::/+oooooooo+//-           
+                    -oooooo/::///////+oooooo///-          
+                    /ooo+::://////:---:/+oooo//:          
+                   -o+/::///////:-      -:/+o+//-         
+                   :-:///////:-            -:/://         
+                     -////:-                 --//:        
+                       --                       -:        
